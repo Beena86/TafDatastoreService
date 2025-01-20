@@ -22,6 +22,10 @@ public class TafDatastoreController {
     @Autowired private BookingRepository bookingRepository;
     @Autowired private FlightRepository flightRepository;
 
+    @GetMapping("/datastore")
+    public String getDataStoremsg() {
+        return "My Aws CICD is Working Fine";
+    }
 
 
     @GetMapping("/users")
