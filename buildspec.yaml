@@ -1,10 +1,12 @@
 version: 0.2
 
+
 phases:
   pre_build:
     commands:
       - echo Preparing for build...
       - echo Installing dependencies...
+      - chmod +x gradlew
       - ./gradlew clean
       - echo Logging in to Amazon ECR...
       - aws --version
