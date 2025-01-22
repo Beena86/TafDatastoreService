@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the Spring Boot JAR file into the container
-COPY build/libs/datastore.jar app.jar
+COPY build/libs/datastoreapp.jar app.jar
 
 # Expose the port your application runs on (optional but recommended)
 EXPOSE 8080

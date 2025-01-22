@@ -20,7 +20,7 @@ configurations {
 }
 // Customize JAR name
 bootJar {
-	archiveFileName = 'datastore.jar'
+	archiveFileName = 'datastoreapp.jar'
 }
 
 repositories {
